@@ -1,7 +1,7 @@
-# My simple .vimrc settings
+# My simple vim settings
+When insert mode, can be typing like mac or emacs keybind.
 
 Type below
-
 ```
 $ cd root
 $ pwd 
