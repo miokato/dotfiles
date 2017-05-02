@@ -1,3 +1,4 @@
-### My DotFiles
+My DotFiles
 
-sh dotfilesLink.sh
+
+`$ sh dotfilesLink.sh`
