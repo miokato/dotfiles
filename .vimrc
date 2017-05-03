@@ -41,7 +41,7 @@ inoremap <C-b> <Left>
 inoremap <C-e> <End>
 inoremap <C-d> <Del>
 inoremap <C-h> <BS>
-inoremap <C-k> <ESC>d$i " I don't know what does it mean.
+inoremap <C-k> <ESC>d$i
 inoremap <C-a> <Home>
 " backspace > バックスペースで削除できるものを指定
 " indent > 行頭の空白
