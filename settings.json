@@ -1,6 +1,26 @@
 {
+    // vim
+    "vim.hlsearch": true,
+    "vim.visualstar": false,
+    "vim.overrideCopy": true,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-a>": false,
+        "<C-h>": false,
+        "<C-e>": false,
+        "<C-n>": false
+    },
+    "vim.cursorStylePerMode.normal": "block",
+
+    // color
     "workbench.colorTheme": "Solarized Light",
     "workbench.preferredDarkColorTheme": "Solarized Light",
     "workbench.preferredHighContrastColorTheme": "Solarized Light",
-    "workbench.preferredLightColorTheme": "Solarized Light"
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    }
 }
