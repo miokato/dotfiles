@@ -13,14 +13,14 @@
     },
     "vim.cursorStylePerMode.normal": "block",
 
+    // python
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "autopep8",
+
     // color
     "workbench.colorTheme": "Solarized Light",
     "workbench.preferredDarkColorTheme": "Solarized Light",
     "workbench.preferredHighContrastColorTheme": "Solarized Light",
     "workbench.preferredLightColorTheme": "Solarized Light",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    }
 }
