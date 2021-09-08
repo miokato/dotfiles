@@ -1,0 +1,1 @@
+/Users/miokato/dotfiles/.vim

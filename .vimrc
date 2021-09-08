@@ -3,11 +3,9 @@ syntax on
 set clipboard=unnamed "yankするとクリップボード
 set laststatus=2 "前回のステータスを常に表示
 
-
 " backup
 set nobackup
 set writebackup
-
 
 " view
 set background=light

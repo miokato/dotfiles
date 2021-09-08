@@ -20,7 +20,7 @@
     "python.formatting.provider": "autopep8",
 
     // color
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Solarized Light+",
     "workbench.preferredDarkColorTheme": "Solarized Light",
     "workbench.preferredHighContrastColorTheme": "Solarized Light",
     "workbench.preferredLightColorTheme": "Solarized Light",
