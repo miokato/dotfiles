@@ -1,0 +1,12 @@
+# キャッシュとデータベースファイル
+*.vscdb
+*.vscdb-journal
+
+# 履歴と一時ファイル
+History/
+globalStorage/
+workspaceStorage/
+
+# その他の一時ファイル
+*.log
+*.backup
