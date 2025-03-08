@@ -1,2 +1,4 @@
 *.swp
 
+# Vim history file (contains sensitive information)
+.vim/.netrwhist
