@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && !inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && !inDebugMode"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-settings.action.editFocusedSetting",
+        "when": "inSettingsSearch"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-problems.action.showQuickFixes",
+        "when": "problemFocus"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+.",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+f5",
+        "command": "-workbench.action.debug.stop",
+        "when": "inDebugMode"
+    }
+]

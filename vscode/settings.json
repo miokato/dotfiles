@@ -1,0 +1,51 @@
+{
+    // vim
+    "vim.hlsearch": true,
+    "vim.visualstar": false,
+    "vim.overrideCopy": true,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-a>": false,
+        "<C-h>": false,
+        "<C-e>": false,
+        "<C-n>": false,
+        "<C-k>": false
+    },
+    "vim.cursorStylePerMode.normal": "block",
+
+    // files
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // python
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.languageServer": "Pylance",
+
+    // color scheme
+    "workbench.preferredHighContrastColorTheme": "Solarized Light",
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.preferredLightColorTheme": "Solarized Light",
+
+    // security
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // terminal
+    "cmake.configureOnOpen": false,
+
+    // editor
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.fontLigatures": false,
+    "editor.tabSize": 4,
+
+    // font size
+    "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 13,
+    "debug.console.fontSize": 13,
+    "chat.editor.fontSize": 13
+}

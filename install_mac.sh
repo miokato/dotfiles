@@ -10,8 +10,8 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.vim ~/.vim
 
 # VSCode configuration
-ln -sf ~/dotfiles/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -sf ~/dotfiles/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 # Windsurf configuration
 ln -sf ~/dotfiles/windsurf/settings.json ~/.config/windsurf/settings.json
