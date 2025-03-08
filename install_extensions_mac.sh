@@ -2,7 +2,7 @@
 
 # Install VSCode extensions
 echo "Installing VSCode extensions..."
-cat ./extensions | while read line
+cat ./vscode/extensions.txt | while read line
 do
   code --install-extension "$line"
 done
