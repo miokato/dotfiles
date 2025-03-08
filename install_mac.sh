@@ -1,13 +1,18 @@
 #! /bin/sh
 
 # Create necessary directories
-mkdir -p ~/.vim
 mkdir -p ~/Library/Application\ Support/Code/User
 mkdir -p ~/.config/windsurf
 
 # Vim configuration
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.vim ~/.vim
+
+# Install Vim plugins and colorschemes using vim-plug
+if [ ! -f ~/.vim/autoload/plug.vim ]; then
+    echo "Installing vim-plug..."
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
 
 # VSCode configuration
 ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
