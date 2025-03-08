@@ -12,6 +12,10 @@ if [ ! -f ~/.vim/autoload/plug.vim ]; then
     echo "Installing vim-plug..."
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+    # Install plugins
+    echo "Installing Vim plugins..."
+    vim +PlugInstall +qall
 fi
 
 # VSCode configuration
