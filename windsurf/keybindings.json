@@ -1,5 +1,9 @@
 [
     {
+        "key": "cmd+r",
+        "command": "workbench.action.debug.run"
+    },
+    {
         "key": "cmd+8",
         "command": "workbench.action.terminal.toggleTerminal"
     },

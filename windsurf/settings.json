@@ -1,4 +1,25 @@
 {
     "workbench.colorTheme": "Solarized Light",
     "python.createEnvironment.trigger": "off",
+    "windsurf.autocompleteSpeed": "default",
+    "windsurf.autoExecutionPolicy": "off",
+    "windsurf.chatFontSize": "default",
+    "windsurf.rememberLastModelSelection": true,
+    "windsurf.openRecentConversation": true,
+    "windsurf.explainAndFixInCurrentConversation": true,
+    "windsurf.enableTabToJump": false,
+    "windsurf.showExplainProblemInlayHint": false,
+    "windsurf.showInlayHintShortcuts": true,
+    "windsurf.showSelectionActions": true,
+    "windsurf.enableAutocomplete": false,
+    "windsurf.enableSupercomplete": false,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "zsh",
+            "args": ["-l"]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "git.openRepositoryInParentFolders": "never"
 }

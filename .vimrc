@@ -9,7 +9,7 @@ set writebackup
 
 " view
 set background=light
-colorscheme solarized
+" colorscheme solarized
 set t_Co=256 " ターミナルで256色表示にする
 set title
 set number
