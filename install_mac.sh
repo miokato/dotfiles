@@ -3,6 +3,7 @@
 # Create necessary directories
 mkdir -p ~/Library/Application\ Support/Code/User
 mkdir -p ~/.config/windsurf
+mkdir -p ~/.claude
 
 # Vim configuration
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
@@ -25,5 +26,9 @@ ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/Us
 # Windsurf configuration
 ln -sf ~/dotfiles/windsurf/settings.json ~/.config/windsurf/settings.json
 ln -sf ~/dotfiles/windsurf/keybindings.json ~/.config/windsurf/keybindings.json
+
+# Claude configuration
+ln -sf ~/dotfiles/claude/settings.json ~/.claude/settings.json
+ln -sf ~/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
 
 echo "Configuration files have been linked successfully!"
