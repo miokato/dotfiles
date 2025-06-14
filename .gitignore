@@ -3,3 +3,4 @@
 # Vim files and directories
 .vim/
 .viminfo
+.vscode/
