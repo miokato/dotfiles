@@ -1,4 +1,0 @@
-codeium.windsurfpyright
-ms-python.debugpy
-ms-python.python
-vscodevim.vim

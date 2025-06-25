@@ -6,7 +6,6 @@ help:
 	@echo "  install-conf  - Install configuration files only"
 	@echo "  install-ext   - Install VSCode and Windsurf extensions only"
 	@echo "  list-ext      - List currently installed VSCode extensions"
-	@echo "  list-windsurf - List currently installed Windsurf extensions"
 
 # Default target
 .DEFAULT_GOAL := help
@@ -31,8 +30,3 @@ install-ext:
 .PHONY: list-ext
 list-ext:
 	@code --list-extensions
-
-# List currently installed Windsurf extensions
-.PHONY: list-windsurf
-list-windsurf:
-	@windsurf --list-extensions
