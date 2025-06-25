@@ -2,6 +2,7 @@
   "permissions": {
     "allow": [
       "Bash(npm:*)",
+      "Bash(xcodebuild:*)",
       "Bash(yarn:*)",
       "Bash(uv:*)",
       "Bash(pip:*)",
