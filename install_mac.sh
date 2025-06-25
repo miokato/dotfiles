@@ -8,17 +8,6 @@ mkdir -p ~/.claude
 # Vim configuration
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 
-# Install Vim plugins and colorschemes using vim-plug
-if [ ! -f ~/.vim/autoload/plug.vim ]; then
-    echo "Installing vim-plug..."
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-    # Install plugins
-    echo "Installing Vim plugins..."
-    vim +PlugInstall +qall
-fi
-
 # VSCode configuration
 ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
