@@ -1,6 +1,8 @@
 *.swp
+.DS_Store
 
 # Vim files and directories
 .vim/
 .viminfo
 .vscode/
+windsurf/
