@@ -1,0 +1,26 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-7": "terminal_panel::ToggleFocus",
+      "cmd-8": "workspace::ToggleBottomDock",
+      "cmd-9": "debug_panel::ToggleFocus",
+      "cmd-1": "workspace::ToggleLeftDock",
+      "cmd-0": "workspace::ToggleRightDock",
+      "cmd-r": "debugger::Start"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  }
+]
