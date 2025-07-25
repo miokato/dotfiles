@@ -4,7 +4,7 @@
 mkdir -p ~/Library/Application\ Support/Code/User
 mkdir -p ~/.config/windsurf
 mkdir -p ~/.claude
-mkdir -p ~/.zed
+mkdir -p ~/.config/zed
 
 # vim
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
@@ -22,7 +22,7 @@ ln -sf ~/dotfiles/claude/settings.json ~/.claude/settings.json
 ln -sf ~/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
 
 # zed
-ln -sf ~/dotfiles/zed/settings.json ~/.zed/settings.json
-ln -sf ~/dotfiles/zed/keymap.json ~/.zed/keymap.json
+ln -sf ~/dotfiles/zed/settings.json ~/.config/zed/settings.json
+ln -sf ~/dotfiles/zed/keymap.json ~/.config/zed/keymap.json
 
 echo "Configuration files have been linked successfully!"
