@@ -26,3 +26,12 @@ View available make commands:
 ```bash
 make help
 ```
+
+## Supported Applications
+
+This dotfiles repository manages configurations for:
+
+- **Vim** - `.vimrc` configuration
+- **VSCode** - Settings and keybindings
+- **Claude** - Settings and CLAUDE.md (custom instructions)
+- **Zed** - Settings and keymap configuration
