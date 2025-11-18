@@ -46,7 +46,11 @@
 
     // font size
     "terminal.integrated.fontSize": 14,
-    "editor.fontSize": 13,
-    "debug.console.fontSize": 13,
-    "chat.editor.fontSize": 13
+    "editor.fontSize": 14,
+    "debug.console.fontSize": 14,
+    "chat.editor.fontSize": 14,
+    "raspberry-pi-pico.python3Path": "/opt/homebrew/bin/python3",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "makefile.configureOnOpen": true,
+    "git.openRepositoryInParentFolders": "never"
 }
