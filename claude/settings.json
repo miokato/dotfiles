@@ -1,17 +1,16 @@
 {
   "permissions": {
-    "allow": [
-    ],
+    "allow": [],
     "deny": [
-        "Bash(sudo:*)",
-        "Bash(rm -rf:*)",
-        "Bash(curl:*)",
-        "Read(./id_rsa)",
-        "Read(./id_ed25519)",
-        "Read(./.env)",
-        "Read(./.env.*)",
-        "Read(./secrets/**)"
+      "Bash(sudo:*)",
+      "Bash(rm -rf:*)",
+      "Bash(curl:*)",
+      "Read(./id_rsa)",
+      "Read(./id_ed25519)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
     ]
   },
-  "model": "opus"
+  "alwaysThinkingEnabled": true
 }
