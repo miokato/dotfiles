@@ -39,9 +39,9 @@
     // editor
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.includeComments": false,
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Lilex, Monaco",
     "editor.semanticHighlighting.enabled": true,
-    "editor.fontLigatures": false,
+    "editor.fontLigatures": true,
     "editor.tabSize": 4,
 
     // font size
