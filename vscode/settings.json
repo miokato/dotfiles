@@ -49,8 +49,16 @@
     "editor.fontSize": 14,
     "debug.console.fontSize": 14,
     "chat.editor.fontSize": 14,
-    "raspberry-pi-pico.python3Path": "/opt/homebrew/bin/python3",
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "makefile.configureOnOpen": true,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "raspberry-pi-pico.python3Path": "/opt/homebrew/bin/python3.13",
+    "dart.flutterSdkPath": "/Users/miokato/flutter",
+    "[dart]": {
+        "editor.inlayHints.enabled": "off",
+    },
+    "claudeCode.preferredLocation": "panel",
+
+    // dart
+    "dart.closingLabels": false,
 }
