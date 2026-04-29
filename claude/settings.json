@@ -8,13 +8,20 @@
       "Read(./id_rsa)",
       "Read(./id_ed25519)",
       "Read(./.env)",
-      "Read(./.env.*)",
+      "Read(./.Secrets.*)",
+      "Read(./.env.*)"
       "Read(./secrets/**)"
     ]
   },
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/mio/.claude/statusline-command.sh"
+  },
   "enabledPlugins": {
-    "example-skills@anthropic-agent-skills": true
+    "example-skills@anthropic-agent-skills": true,
+    "swift-lsp@claude-plugins-official": true
   },
   "alwaysThinkingEnabled": true,
-  "model": "opus"
+  "theme": "auto"
 }
