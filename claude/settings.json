@@ -9,7 +9,7 @@
       "Read(./id_ed25519)",
       "Read(./.env)",
       "Read(./.Secrets.*)",
-      "Read(./.env.*)"
+      "Read(./.env.*)",
       "Read(./secrets/**)"
     ]
   },
