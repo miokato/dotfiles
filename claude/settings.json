@@ -142,9 +142,9 @@
     }
   },
   "alwaysThinkingEnabled": true,
+  "autoCompactWindow": 150000,
   "tui": "fullscreen",
   "theme": "auto",
-  "agentPushNotifEnabled": true,
   "autoCompactEnabled": true,
-  "autoCompactWindow": 150000
+  "agentPushNotifEnabled": true
 }
