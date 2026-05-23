@@ -96,7 +96,14 @@
       "Edit(./**/.env)",
       "Write(./.env)",
       "Write(./**/.env)",
-      "WebFetch(domain:*.onion)"
+      "WebFetch(domain:*.onion)",
+      "WebFetch(domain:localhost)",
+      "WebFetch(domain:127.0.0.1)",
+      "WebFetch(domain:0.0.0.0)",
+      "WebFetch(domain:169.254.169.254)",
+      "WebFetch(domain:metadata.google.internal)",
+      "WebFetch(domain:*.internal)",
+      "WebFetch(domain:*.local)"
     ],
     "ask": [
       "Bash(git push:*)",
@@ -120,8 +127,21 @@
       "Bash(kubectl delete:*)",
       "Bash(kubectl apply:*)",
       "Bash(psql:*)",
-      "Bash(mysql:*)",
-      "WebFetch(domain:*)"
+      "Bash(mysql:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "WebFetch|WebSearch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\"}}'",
+            "timeout": 5
+          }
+        ]
+      }
     ]
   },
   "model": "opus",
