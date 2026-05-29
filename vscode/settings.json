@@ -61,4 +61,5 @@
 
     // dart
     "dart.closingLabels": false,
+    "extensions.ignoreRecommendations": true,
 }
